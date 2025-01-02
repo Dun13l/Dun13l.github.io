@@ -67,6 +67,15 @@ nav ul li a:hover {
     margin-bottom: 20px;
 }
 
+.hero-image {
+    display: block;
+    max-width: 80%; /* Adjust max width as needed */
+    width: 600px; /* Set a fixed width */
+    height: auto; /* Maintain aspect ratio */
+    margin: 20px auto 0; /* Add spacing and center the image */
+    border-radius: 10px; /* Optional: round the corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: add a shadow */
+}
 .cta-button {
     display: inline-block;
     background: #007BFF;
@@ -93,6 +102,7 @@ h2 {
     color: #007BFF;
     text-align: center;
 }
+
 
 /* Service Boxes */
 .service-boxes {
